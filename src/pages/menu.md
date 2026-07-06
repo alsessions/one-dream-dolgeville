@@ -69,7 +69,7 @@ templateEngineOverride: njk
         <div>
           <h3 class="{{ sectionHeading }}">BLT</h3>
           <ul class="{{ list }}"><li>Italian bread</li><li>Bacon</li><li>American cheese</li><li>Lettuce</li><li>Tomatoes</li><li>Mayonnaise</li></ul>
-          <p class="{{ tag }} mt-4">Meal with Chips and Soda $14.99</p>
+          <p class="{{ tag }} mt-4">Meal with Chips & Soda $14.99</p>
         </div>
       </div>
     </article>
@@ -96,11 +96,11 @@ templateEngineOverride: njk
         <p class="{{ price }}">$10.99</p>
       </div>
       <div class="grid gap-4 sm:grid-cols-2">
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Napa Valley Wrap</h3><p class="{{ itemBody }}">Grilled chicken, lettuce, avocado, roasted red peppers, tomato, and ranch</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Grilled Chicken Wrap</h3><p class="{{ itemBody }}">Grilled chicken, lettuce, tomato, mozzarella cheese, and aioli dressing</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Napa Valley Wrap</h3><p class="{{ itemBody }}">Grilled chicken, lettuce, avocado, roasted red peppers, tomato, & ranch</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Grilled Chicken Wrap</h3><p class="{{ itemBody }}">Grilled chicken, lettuce, tomato, mozzarella cheese & aioli dressing</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Chicken Tikka Masala</h3><p class="{{ itemBody }}">Chicken tikka masala, American cheese, mayo, lettuce, tomato</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Tuna Wrap</h3><p class="{{ itemBody }}">Tuna salad, lettuce, tomato, roasted red peppers, American cheese</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Avocado Wrap</h3><p class="{{ itemBody }}">Turkey, lettuce, tomato, avocado, and mayo</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Avocado Wrap</h3><p class="{{ itemBody }}">Turkey, lettuce, tomato, avocado, & mayo</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Crispy Chicken Wrap</h3><p class="{{ itemBody }}">Crispy chicken, pesto mayo, lettuce, tomato</p></div>
       </div>
     </article>
@@ -156,11 +156,11 @@ templateEngineOverride: njk
         <p class="{{ price }}">$11.99</p>
       </div>
       <div class="grid gap-4 sm:grid-cols-2">
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Grilled Chicken Quesadilla</h3><p class="{{ itemBody }}">Grilled chicken, shredded cheese, roasted peppers, and onions</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Corn Bread Quesadilla</h3><p class="{{ itemBody }}">Corned beef, roasted pepper and onions, shredded cheese</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Philly Cheesesteak</h3><p class="{{ itemBody }}">Philly cheese steak, roasted peppers and onions, shredded cheese</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Grilled Chicken Quesadilla</h3><p class="{{ itemBody }}">Grilled chicken, shredded cheese, roasted peppers, & onions</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Corn Bread Quesadilla</h3><p class="{{ itemBody }}">Corned beef, roasted pepper & onions, shredded cheese</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Philly Cheesesteak</h3><p class="{{ itemBody }}">Philly cheese steak, roasted peppers & onions, shredded cheese</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Crispy Chicken</h3><p class="{{ itemBody }}">Crispy chicken, roasted green peppers, onions, shredded cheese</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Veggie Quesadilla</h3><p class="{{ itemBody }}">Roasted peppers and onions, broccoli, pico de gallo, jalapenos, pepper jack cheese, and chipotle sauce</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Veggie Quesadilla</h3><p class="{{ itemBody }}">Roasted peppers & onions, broccoli, pico de gallo, jalapenos, pepper jack cheese, & chipotle sauce</p></div>
       </div>
     </article>
 
@@ -177,7 +177,7 @@ templateEngineOverride: njk
       <div class="space-y-3">
         <div class="mt-3"><h3 class="{{ itemTitle }}">Corned Beef Reuben</h3><p class="{{ itemBody }}">Corned beef, Swiss cheese, sauerkraut, Russian dressing</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Pastrami Reuben</h3><p class="{{ itemBody }}">Pastrami, Swiss cheese, sauerkraut, deli mustard</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Reuben</h3><p class="{{ itemBody }}">Turkey, Swiss cheese, sauerkraut, roasted peppers and onions, deli mustard</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Reuben</h3><p class="{{ itemBody }}">Turkey, Swiss cheese, sauerkraut, roasted peppers & onions, deli mustard</p></div>
       </div>
     </article>
 
@@ -188,13 +188,13 @@ templateEngineOverride: njk
         <p class="{{ price }}">$11.99</p>
       </div>
       <div class="space-y-3">
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Bacon Guacamole</h3><p class="{{ itemBody }}">Turkey, bacon, guacamole, pepper jack cheese and ranch</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Tuna Melt</h3><p class="{{ itemBody }}">Tuna salad, roasted red peppers and American cheese</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Cabana</h3><p class="{{ itemBody }}">Turkey, ham, Swiss, pickles and Russian</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Buffalo Chicken</h3><p class="{{ itemBody }}">Grilled chicken, bacon, cheddar cheese, lettuce, tomato and ranch</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Veggie Melt</h3><p class="{{ itemBody }}">Roasted peppers and onions, cilantro, jalapeno, spinach, broccoli, pepper jack cheese and chipotle</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Spicy Pepperoni</h3><p class="{{ itemBody }}">Pepperoni, pepper jack cheese, pickles, jalapeno and chipotle sauce</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Philly Cheese Steak</h3><p class="{{ itemBody }}">Sliced steak, American cheese, roasted peppers and onions, roasted red peppers and mayo</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Bacon Guacamole</h3><p class="{{ itemBody }}">Turkey, bacon, guacamole, pepper jack cheese & ranch</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Tuna Melt</h3><p class="{{ itemBody }}">Tuna salad, roasted red peppers & American cheese</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Cabana</h3><p class="{{ itemBody }}">Turkey, ham, Swiss, pickles & Russian</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Buffalo Chicken</h3><p class="{{ itemBody }}">Grilled chicken, bacon, cheddar cheese, lettuce, tomato & ranch</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Veggie Melt</h3><p class="{{ itemBody }}">Roasted peppers & onions, cilantro, jalapeno, spinach, broccoli, pepper jack cheese & chipotle</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Spicy Pepperoni</h3><p class="{{ itemBody }}">Pepperoni, pepper jack cheese, pickles, jalapeno & chipotle sauce</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Philly Cheese Steak</h3><p class="{{ itemBody }}">Sliced steak, American cheese, roasted peppers & onions, roasted red peppers & mayo</p></div>
       </div>
     </article>
 
@@ -223,7 +223,7 @@ templateEngineOverride: njk
           <ul class="{{ list }}">
             <li>White Dill Sauce</li>
             <li>Buffalo Chipotle Mayo</li>
-            <li>Mint and Cilantro Mix</li>
+            <li>Mint & Cilantro Mix</li>
           </ul>
         </div>
       </div>
@@ -248,7 +248,7 @@ templateEngineOverride: njk
     <article id="crispy-fish-specials" class="{{ menuCard }}">
       <h2 class="{{ title }} border-b-2 border-[#c98532] pb-3">Crispy Fish Specials</h2>
       <div class="mt-4 space-y-3">
-        <p class="{{ line }}"><span class="{{ lineLabel }}">Crispy Fish and Chips</span><span class="{{ linePrice }}">$8.99</span></p>
+        <p class="{{ line }}"><span class="{{ lineLabel }}">Crispy Fish & Chips</span><span class="{{ linePrice }}">$8.99</span></p>
         <p class="{{ line }}"><span class="{{ lineLabel }}">Crispy Fish Sandwich</span><span class="{{ linePrice }}">$8.99</span></p>
         <p class="{{ line }}"><span class="{{ lineLabel }}">Crispy Fish Quesadilla</span><span class="{{ linePrice }}">$8.99</span></p>
       </div>
