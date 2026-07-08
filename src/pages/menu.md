@@ -66,11 +66,7 @@ templateEngineOverride: njk
           <h3 class="{{ sectionHeading }}">Grilled Chicken</h3>
           <ul class="{{ list }}"><li>Italian bread</li><li>Grilled chicken</li><li>American cheese</li><li>Lettuce</li><li>Tomatoes</li><li>Red onions</li><li>Green peppers</li><li>Mayonnaise</li></ul>
         </div>
-        <div>
-          <h3 class="{{ sectionHeading }}">BLT</h3>
-          <ul class="{{ list }}"><li>Italian bread</li><li>Bacon</li><li>American cheese</li><li>Lettuce</li><li>Tomatoes</li><li>Mayonnaise</li></ul>
-          <p class="{{ tag }} mt-4">Meal with Chips & Soda $14.99</p>
-        </div>
+      
       </div>
     </article>
 
@@ -80,6 +76,7 @@ templateEngineOverride: njk
         <div>
           <h2 class="{{ title }}">Tacos</h2>
           <p class="{{ note }} font-black">Chipotle Style Chicken Tacos</p>
+           <p class="{{ note }} font-black">Soft or Hard Shell</p>
         </div>
       </div>
       <p class="{{ tag }} mb-4">3 Tacos - $11.99</p>
@@ -98,10 +95,11 @@ templateEngineOverride: njk
       <div class="grid gap-4 sm:grid-cols-2">
         <div class="mt-3"><h3 class="{{ itemTitle }}">Napa Valley Wrap</h3><p class="{{ itemBody }}">Grilled chicken, lettuce, avocado, roasted red peppers, tomato, & ranch</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Grilled Chicken Wrap</h3><p class="{{ itemBody }}">Grilled chicken, lettuce, tomato, mozzarella cheese & aioli dressing</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Chicken Tikka Masala</h3><p class="{{ itemBody }}">Chicken tikka masala, American cheese, mayo, lettuce, tomato</p></div>
+      
         <div class="mt-3"><h3 class="{{ itemTitle }}">Tuna Wrap</h3><p class="{{ itemBody }}">Tuna salad, lettuce, tomato, roasted red peppers, American cheese</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Avocado Wrap</h3><p class="{{ itemBody }}">Turkey, lettuce, tomato, avocado, & mayo</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Crispy Chicken Wrap</h3><p class="{{ itemBody }}">Crispy chicken, pesto mayo, lettuce, tomato</p></div>
+        <div class="mt-3"><h3 class="{{ itemTitle }}">Felafel</h3><p class="{{ itemBody }}">Over rice</p></div>
+
       </div>
     </article>
 
