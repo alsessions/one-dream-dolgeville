@@ -98,7 +98,7 @@ templateEngineOverride: njk
       
         <div class="mt-3"><h3 class="{{ itemTitle }}">Tuna Wrap</h3><p class="{{ itemBody }}">Tuna salad, lettuce, tomato, roasted red peppers, American cheese</p></div>
         <div class="mt-3"><h3 class="{{ itemTitle }}">Turkey Avocado Wrap</h3><p class="{{ itemBody }}">Turkey, lettuce, tomato, avocado, & mayo</p></div>
-        <div class="mt-3"><h3 class="{{ itemTitle }}">Felafel</h3><p class="{{ itemBody }}">Over rice</p></div>
+      
 
       </div>
     </article>
@@ -206,6 +206,7 @@ templateEngineOverride: njk
         <p class="{{ line }}"><span class="{{ lineLabel }}">Lamb Over Rice</span><span class="{{ linePrice }}">$11.99</span></p>
         <p class="{{ line }}"><span class="{{ lineLabel }}">Combo Mix Over Rice</span><span class="{{ linePrice }}">$11.99</span></p>
         <p class="{{ line }}"><span class="{{ lineLabel }}">Chicken/Lamb Gyro</span><span class="{{ linePrice }}">$11.99</span></p>
+        <p class="{{ line }}"><span class="{{ lineLabel }}">Felafel Over Rice</span><span class="{{ linePrice }}">$11.99</span></p>
       </div>
       <p class="mt-2 font-black">Wrapped in Pita Bread</p>
       <p class="mb-4 font-black">Extra Meat $2.99 | Pita $0.99</p>
