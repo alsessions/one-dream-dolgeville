@@ -13,14 +13,14 @@ By accessing this website, you agree to these terms. If you don't agree, well...
 By using this site, you acknowledge that:
 
 - You have read at least 3% of these terms (which is 3% more than most people)
-- You promise not to use our code to build a competing lime-themed website
+- You promise not to use our code to build a competing grey-themed website
 - You accept that we're not responsible if you spend too long admiring our beautiful design
 
 ## 2. Use of the Website
 
 You agree to use this website only for lawful purposes. This includes, but is not limited to:
 
-- **Allowed:** Looking at the pretty colors
+- **Allowed:** Looking at the quiet colors
 - **Allowed:** Copying our code (it's open source, go wild!)
 - **Allowed:** Telling your friends how cool this starter is
 - **Not Allowed:** Teaching parrots to recite our source code
@@ -36,14 +36,14 @@ All content on this site is protected by the ancient laws of "we made it, so ple
 
 You may not:
 
-- Claim you invented the color lime
+- Claim you invented the color grey
 - Sue us because your website is now "too beautiful"
 
 ## 4. Disclaimer of Warranties
 
 This website is provided "as is" without warranty of any kind. We make no guarantees that:
 
-- The lime will always be electric
+- The greys will always be sensible
 - Your visitors will be impressed (though they probably will be)
 - Using our starter will make you a better developer (but it might)
 

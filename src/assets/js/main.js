@@ -69,16 +69,16 @@ document.addEventListener(
     // Initialize range inputs
     initRangeInputs();
 
-    // Electric Lime console branding
+    // Console branding
     console.log(
-      "%c Electric Lime %c 11ty Starter ",
-      "background: linear-gradient(135deg, #65a30d 0%, #4d7c0f 100%); color: white; font-size: 16px; font-weight: bold; padding: 8px 12px; border-radius: 8px 0 0 8px;",
-      "background: #18181b; color: #65a30d; font-size: 16px; font-weight: bold; padding: 8px 12px; border-radius: 0 8px 8px 0;"
+      "%c One Dream %c 11ty Starter ",
+      "background: #3f3f46; color: #ffffff; font-size: 16px; font-weight: bold; padding: 8px 12px; border-radius: 8px 0 0 8px;",
+      "background: #e4e4e7; color: #3f3f46; font-size: 16px; font-weight: bold; padding: 8px 12px; border-radius: 0 8px 8px 0;"
     );
     console.log(
       "%c Made with love by FreshJuice Team %c https://freshjuice.dev",
       "color: #71717a; font-size: 12px;",
-      "color: #65a30d; font-size: 12px;"
+      "color: #3f3f46; font-size: 12px;"
     );
   },
   { once: true }

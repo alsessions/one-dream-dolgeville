@@ -16,18 +16,18 @@ layout: layouts/base.njk
       sizes="100vw"
       eleventy:widths="640,960,1200"
     >
-    <div class="absolute inset-0 bg-zinc-950/60" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-zinc-100/70" aria-hidden="true"></div>
     <div class="relative w-full px-6 sm:px-8 lg:px-12">
       {% if subtitle %}
-        <p class="text-sm font-semibold text-primary-100 uppercase tracking-wide mb-2">
+        <p class="text-sm font-semibold text-zinc-700 uppercase tracking-wide mb-2">
           {{ subtitle }}
         </p>
       {% endif %}
 
-      <h1 class="text-balance text-5xl text-white md:text-6xl">{{ title }}</h1>
+      <h1 class="text-balance text-5xl text-zinc-950 md:text-6xl">{{ title }}</h1>
 
       {% if description %}
-        <p class="mt-5 text-2xl text-primary-100 text-pretty">
+        <p class="mt-5 text-2xl text-zinc-700 text-pretty">
           {{ description }}
         </p>
       {% endif %}

@@ -1,7 +1,7 @@
 {
   "name": "electric-lime-11ty-starter",
   "version": "1.0.0",
-  "description": "A vibrant lime-green themed 11ty starter with Nunjucks, Tailwind CSS, and Alpine.js",
+  "description": "A neutral grey themed 11ty starter with Nunjucks, Tailwind CSS, and Alpine.js",
   "license": "MIT",
   "author": {
     "name": "FreshJuice",
