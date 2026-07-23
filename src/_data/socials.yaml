@@ -11,6 +11,4 @@
 #   label: LinkedIn
 #   url: https://www.linkedin.com/company/freshjuice
 
-- platform: facebook
-  label: Facebook
-  url: "#"
+[]
