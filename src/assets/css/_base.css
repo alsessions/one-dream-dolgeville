@@ -79,7 +79,7 @@
   h4,
   h5,
   h6 {
-    @apply font-heading font-bold text-zinc-900 leading-tight;
+    @apply font-heading font-semibold text-zinc-900 leading-tight;
     text-wrap: pretty;
   }
 
