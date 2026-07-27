@@ -18,7 +18,7 @@
   h5,
   h6 {
     font-family: var(--font-heading);
-    font-weight: 600;
+    font-weight: 700;
     line-height: var(--leading-tight);
   }
 
@@ -58,16 +58,16 @@
 
 @layer components {
   .prose {
-    --tw-prose-body: theme(colors.zinc.700);
-    --tw-prose-headings: theme(colors.zinc.900);
-    --tw-prose-links: theme(colors.primary.700);
-    --tw-prose-bold: theme(colors.zinc.900);
-    --tw-prose-quotes: theme(colors.zinc.600);
-    --tw-prose-code: theme(colors.zinc.800);
-    --tw-prose-pre-bg: #1a1a2e;
-    --tw-prose-pre-code: #e2e8f0;
-    --tw-prose-captions: theme(colors.zinc.500);
-    --tw-prose-borders: theme(colors.zinc.200);
+    --tw-prose-body: #ffffff;
+    --tw-prose-headings: #ef4444;
+    --tw-prose-links: #ffffff;
+    --tw-prose-bold: #ffffff;
+    --tw-prose-quotes: #ffffff;
+    --tw-prose-code: #ffffff;
+    --tw-prose-pre-bg: #18181b;
+    --tw-prose-pre-code: #ffffff;
+    --tw-prose-captions: #ffffff;
+    --tw-prose-borders: rgb(63 63 70);
 
     font-size: var(--text-base);
     line-height: var(--leading-relaxed);
@@ -137,7 +137,7 @@
     /* Lead paragraph */
     > p:first-of-type {
       font-size: var(--text-lg);
-      @apply text-zinc-600;
+      @apply text-white;
     }
 
     /* Lists */
@@ -159,7 +159,7 @@
       margin-bottom: 0.5em;
 
       &::marker {
-        color: theme(colors.zinc.400);
+        color: theme(colors.red.500);
       }
     }
 
@@ -171,7 +171,7 @@
 
     /* Blockquotes */
     blockquote {
-      border-left: 4px solid theme(colors.primary.500);
+      border-left: 4px solid theme(colors.red.500);
       padding-left: 1.5rem;
       margin: 1.5em 0;
       font-style: italic;
@@ -184,8 +184,8 @@
 
     /* Inline code (not inside pre) */
     :not(pre) > code {
-      @apply bg-zinc-100 text-zinc-700 px-1.5 py-0.5 rounded;
-      @apply border border-zinc-300;
+      @apply bg-zinc-900 text-white px-1.5 py-0.5 rounded;
+      @apply border border-zinc-700;
       font-size: 0.8em;
       font-weight: 500;
       font-family: var(--font-mono);
@@ -242,7 +242,7 @@
     }
 
     th {
-      @apply bg-zinc-100 font-semibold text-zinc-900;
+      @apply bg-zinc-900 font-semibold text-white;
       text-align: left;
       padding: 0.75rem 1rem;
       border: 1px solid var(--tw-prose-borders);
@@ -254,7 +254,7 @@
     }
 
     tr:nth-child(even) td {
-      @apply bg-zinc-50/50;
+      @apply bg-zinc-900/50;
     }
 
     /* Horizontal rule */
@@ -270,11 +270,11 @@
     }
 
     dt {
-      @apply font-semibold text-zinc-900 mt-4;
+      @apply font-semibold text-red-500 mt-4;
     }
 
     dd {
-      @apply ml-4 text-zinc-600;
+      @apply ml-4 text-white;
     }
 
     /* Abbreviation */
@@ -284,14 +284,14 @@
 
     /* Keyboard input */
     kbd {
-      @apply font-mono text-sm bg-zinc-100 text-zinc-800;
-      @apply px-2 py-0.5 rounded border border-zinc-300;
+      @apply font-mono text-sm bg-zinc-900 text-white;
+      @apply px-2 py-0.5 rounded border border-zinc-700;
       @apply shadow-sm;
     }
 
     /* Small text */
     small {
-      @apply text-sm text-zinc-500;
+      @apply text-sm text-white;
     }
   }
 
@@ -312,7 +312,8 @@
 @layer utilities {
   /* Shiki code blocks - theme colors are inline, just add layout */
   pre.shiki {
-    background-color: #f2f2f2 !important;
+    background-color: #18181b !important;
+    color: #ffffff !important;
     border-radius: 0.5rem;
     padding: 1rem 1.25rem;
     overflow-x: auto;
@@ -329,7 +330,7 @@
 
   /* Focus styles for keyboard-accessible pre elements */
   pre:focus {
-    outline: 2px solid theme(colors.primary.500);
+    outline: 2px solid theme(colors.red.500);
     outline-offset: 2px;
   }
 }

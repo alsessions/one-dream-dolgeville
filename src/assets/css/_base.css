@@ -3,6 +3,10 @@
  */
 
 @layer base {
+  :root {
+    color-scheme: dark;
+  }
+
   /* Smooth scrolling */
   html {
     scroll-behavior: smooth;
@@ -17,7 +21,7 @@
 
   /* Body defaults */
   body {
-    @apply bg-zinc-100 text-zinc-800 antialiased;
+    @apply bg-zinc-950 text-white antialiased;
     @apply font-sans text-base leading-normal;
     text-rendering: optimizeLegibility;
     font-feature-settings:
@@ -30,21 +34,21 @@
 
   /* Focus styles for accessibility */
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-primary-600;
+    @apply outline-2 outline-offset-2 outline-red-500;
   }
 
   /* Skip link for accessibility */
   .skip-link {
     @apply sr-only focus:not-sr-only;
     @apply fixed top-4 left-4 z-50;
-    @apply bg-primary-700 text-white;
+    @apply bg-red-600 text-white;
     @apply px-4 py-2 rounded-lg font-semibold;
-    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+    @apply focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2;
   }
 
   /* Selection */
   ::selection {
-    @apply bg-primary-200 text-primary-950;
+    @apply bg-red-600 text-white;
   }
 
   /* Better media defaults */
@@ -68,8 +72,8 @@
 
   /* Links */
   a {
-    @apply text-primary-700 transition-colors duration-200;
-    @apply hover:text-primary-800;
+    @apply text-white transition-colors duration-200;
+    @apply hover:text-red-500;
   }
 
   /* Headings */
@@ -79,7 +83,7 @@
   h4,
   h5,
   h6 {
-    @apply font-heading font-semibold text-zinc-900 leading-tight;
+    @apply font-heading font-semibold text-red-500 leading-tight;
     text-wrap: pretty;
   }
 
@@ -109,16 +113,16 @@
 
   /* Horizontal rule */
   hr {
-    @apply border-t border-zinc-200 my-8;
+    @apply border-t border-zinc-700 my-8;
   }
 
   /* Code */
   code {
-    @apply font-mono text-sm bg-zinc-100 text-zinc-800 px-1.5 py-0.5 rounded;
+    @apply font-mono text-sm bg-zinc-900 text-white px-1.5 py-0.5 rounded;
   }
 
   pre {
-    @apply font-mono text-sm bg-zinc-900 text-zinc-100 p-4 rounded-lg overflow-x-auto;
+    @apply font-mono text-sm bg-zinc-900 text-white p-4 rounded-lg overflow-x-auto;
   }
 
   pre code {

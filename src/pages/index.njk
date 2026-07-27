@@ -9,8 +9,8 @@ permalink: /index.html
 {# Hero Section #}
 <section class="home-hero section relative flex min-h-[520px] items-center overflow-hidden md:min-h-[680px]">
   <img
-    src="/assets/images/one_dream_cover.jpg"
-    alt=""
+    src="/assets/images/interior.jpeg"
+    alt="Inside One Dream with drink coolers, snacks, and store aisles"
     class="absolute inset-0 h-full w-full object-cover"
     loading="eager"
     decoding="async"
@@ -23,15 +23,15 @@ permalink: /index.html
     <div class="max-w-4xl mx-auto">
      
 
-      <h1 class="text-balance text-white">
-        Visit <span class="text-zinc-200">One Dream</span> for everything you need.
+      <h1 class="text-balance text-white text-7xl">
+        <span class="text-zinc-200">One Dream</span> 
       </h1>
 
      
 
       <div class="flex flex-wrap justify-center gap-4 mt-8">
         {{ button({
-          text: "Menu Placeholder",
+          text: "View Menu",
           url: "/menu/",
           variant: "primary",
           size: "lg"
@@ -40,6 +40,21 @@ permalink: /index.html
 
       </div>
     </div>
+  </div>
+</section>
+
+{# Specials Section #}
+<section class="page-content section bg-zinc-950">
+  <div class="mx-auto w-full px-6 sm:px-8 lg:px-12">
+    <img
+      src="/assets/images/specials.jpeg"
+      alt="Family deal specials: Deal 1 includes 1 large pepperoni, 10 wings, fries and 2L soda for $39.99. Deal 2 includes 2 large pepperoni, 10 wings, fries and 2L soda for $59.99. Deal 3 includes 5 large cheese, pepperoni or chicken mix pizzas with large fries for $99.99."
+      class="mx-auto w-full rounded-lg border border-red-950/80"
+      loading="lazy"
+      decoding="async"
+      sizes="100vw"
+      eleventy:widths="640,960,1200,1600,2048"
+    >
   </div>
 </section>
 
@@ -129,8 +144,14 @@ permalink: /index.html
         </div>
       </div>
 
-      <div class="flex h-80 items-center justify-center rounded-lg border border-zinc-300 bg-zinc-100 md:h-96">
-        <p class="text-lg font-semibold text-zinc-600">Map placeholder</p>
+      <div class="overflow-hidden rounded-lg border border-zinc-300 bg-zinc-100">
+        <iframe
+          src="https://www.google.com/maps?q=6371%20NY-167%2C%20Dolgeville%2C%20NY%2013329&output=embed"
+          title="Map to One Dream at 6371 NY-167, Dolgeville, NY 13329"
+          class="h-80 w-full md:h-96"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
   </div>
